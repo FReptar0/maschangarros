@@ -9,7 +9,7 @@ export default function Footer() {
             +CHANGARROS
           </span>
           <p className="font-label text-xs tracking-wider uppercase opacity-80">
-            &copy; 2024 +CHANGARROS Estudio Creativo. Vibrant Vernacular.
+            &copy; 2024 +CHANGARROS Estudio Creativo. maschangarros.com
           </p>
         </div>
         <div className="flex gap-8 flex-wrap justify-center font-label text-xs tracking-wider uppercase font-bold">

@@ -20,26 +20,26 @@ const teamAvatars = [
 
 const teamMembers = [
   {
-    name: "Ana Valdes",
     role: "Directora Creativa",
+    description: "Lidera la visión artística y conceptual de cada proyecto, asegurando que cada marca refleje autenticidad.",
     src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDcEZJhbhMIZNDPcFFWfCUnqJG3TghmcpDSTcC9g0KIWB1lDJDF1YZKXcgkAZbGeTOyr31TjM1Wq6-7uOrBm4rfeG_8Ash9xgvYvaVN2NIBjOfwYvTKIe2WrUwrZ0XexKKSl5x479N_6ekDK6s7WK6hfk6ggstc-bENPa5sYhbL-tVMW4fjwzlGyAFMOSWL-aa61dUFZHPfdh8tQB11AaJQugcL5JuvStykusIhQoWpOiya01Bw13h0GIkSwL_1rL0ZJ5x1hJ3cHK4",
     color: "bg-primary",
   },
   {
-    name: "Marco Soto",
     role: "Estratega SEO",
+    description: "Optimiza la presencia digital para que los negocios aparezcan cuando sus clientes los buscan.",
     src: "https://lh3.googleusercontent.com/aida-public/AB6AXuCuw7ZPh4Gdfg-p_F2SXVa0XejfFdfiyZimnVA5aXJPFT_XU8Tm9VAgGhTO41IsDE-ZYfUvxTjugdYJSyUf_rvr1xubLLswUSdq4PqGtdI-vYPlZ9aKM1SdPiavj8xcmiwcmz5XMH7OJuyRFT0eFiEJFEaDKWpeTjJoklzZEfV4iHZMxRdYqzPGKIR2up9xQ_hc-bHozZ5SK85D4U9xpmjoAyyLQHs4z32ta3vzTGRNyOXKNYvqQ9dUCJtywSagUbgze4NxOwtutk0",
     color: "bg-secondary-container",
   },
   {
-    name: "Sofia Luna",
     role: "Content Manager",
+    description: "Crea contenido que conecta con las audiencias y construye comunidades leales alrededor de cada marca.",
     src: "https://lh3.googleusercontent.com/aida-public/AB6AXuD1cBNlX93frPLuxQgd8asd7fl72hcSfTnV2JC11uxK13svH3troyLSP2G8L79XViEvjERBO91KonvpuOAmFYbvKxtOt4rZAjlMmcnUD0klIANtT9DaTAI_gj_8a_VUMLsRPZRw8oF7Nss5ukHvT8qvcFPBWzqHRFkk9Mc2vfrBsT4BJDkEI6hHmArrtTSxkOkPcEIfUi7RSKltt9yK50xMfDDM1WskjNi2GVLyYQSt_VYpUY-yD1iG2OAIDNL22GjNFNyYOFZJKt4",
     color: "bg-tertiary-container",
   },
   {
-    name: "Luis Herrera",
     role: "Lead Developer",
+    description: "Construye experiencias web rápidas y modernas que convierten visitantes en clientes.",
     src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAamHu79t2yNDSXYH5QWBnNcV0HSQggBvsTUWnwq1Q6nDDESKBjTeriyfjUoLqbA4GoGCdLNb2taJt-If1mhnYP-yNcITUOhYNARO3jwWtjm0NjyAHbBKOsjAGoCx547mjSU-7Egb3RdnSdGvDVIHOFM1eK1z9uIOeZZqzl4YWWEsuUr37rPHYEfCwZxHZRMBSv3aDLGFpfXD5M4NF5udidrZ2tu6jhVHkT5rqcNedFAmMVJBdmyHF1xkGfk3zMfW1pjfUzD7myfRw",
     color: "bg-primary-container",
   },
@@ -189,7 +189,7 @@ export default function NosotrosPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {teamMembers.map((member) => (
               <div
-                key={member.name}
+                key={member.role}
                 className="flex flex-col items-center gap-4 group"
               >
                 <div className="relative">
@@ -200,28 +200,19 @@ export default function NosotrosPage() {
                   <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-surface">
                     <Image
                       src={member.src}
-                      alt={member.name}
+                      alt={member.role}
                       width={160}
                       height={160}
                       className="object-cover w-full h-full"
                     />
                   </div>
-                  {/* Social icons on hover */}
-                  <div className="absolute inset-0 rounded-full bg-primary/60 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span className="material-symbols-outlined text-on-primary text-xl cursor-pointer hover:scale-110 transition-transform">
-                      mail
-                    </span>
-                    <span className="material-symbols-outlined text-on-primary text-xl cursor-pointer hover:scale-110 transition-transform">
-                      link
-                    </span>
-                  </div>
                 </div>
                 <div className="text-center">
                   <h3 className="font-headline text-base font-bold text-on-surface">
-                    {member.name}
-                  </h3>
-                  <p className="font-body text-sm text-on-surface-variant">
                     {member.role}
+                  </h3>
+                  <p className="font-body text-sm text-on-surface-variant max-w-[200px]">
+                    {member.description}
                   </p>
                 </div>
               </div>

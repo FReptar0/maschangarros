@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import BottomNav from "../components/BottomNav";
@@ -27,7 +26,7 @@ export default function ContactoPage() {
             {/* Contact Info */}
             <div className="flex flex-col gap-4 mb-10">
               <a
-                href="mailto:hola@changarros.studio"
+                href="mailto:hola@maschangarros.com"
                 className="flex items-center gap-3 text-on-secondary-container hover:opacity-80 transition-opacity"
               >
                 <span className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
@@ -36,7 +35,7 @@ export default function ContactoPage() {
                   </span>
                 </span>
                 <span className="font-body font-medium">
-                  hola@changarros.studio
+                  hola@maschangarros.com
                 </span>
               </a>
 
@@ -198,43 +197,6 @@ export default function ContactoPage() {
                   Enviar mensaje
                 </button>
               </form>
-            </div>
-          </div>
-        </section>
-
-        {/* Map Section */}
-        <section className="px-6 md:px-16 py-20 max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <span className="font-label text-xs tracking-widest uppercase font-bold text-primary mb-2 block">
-              Nuestra Base
-            </span>
-            <h2 className="font-headline text-3xl md:text-4xl font-bold text-on-surface">
-              Ubicados en el corazón de la CDMX
-            </h2>
-          </div>
-
-          <div className="relative rounded-[3rem] overflow-hidden group">
-            <Image
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZejqsdeoXQgyL24k3DHKrnDWYEtytMOvqqKIYvk6B0fFSzoEnClr8jlMaj1PioC9DzECqLo3OHB2ManUWY8-JdDDHoHBEsYY4wyJSNchQcVEvGvKjUoP5rZpVfggLsOTtfP810bcDBdBhCGIwGhLiVS-d3au7MrMgd7wVtfm1Z5LrPxv_HjSsPmdw3CpUL0C8SazP8f0jv05_dPy0sbG9MVupQzGa9TwOVaBDIEUsjdeFn9X95rw_4zWHN1l3bOcSg8TuJNkc7rM"
-              alt="Mapa de ubicación de +CHANGARROS en la Ciudad de México"
-              width={1200}
-              height={500}
-              className="w-full h-[300px] md:h-[450px] object-cover grayscale transition-all duration-700 group-hover:grayscale-0"
-            />
-
-            {/* Location Pin */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
-              <div className="relative">
-                <span className="absolute inset-0 rounded-full bg-primary/30 animate-ping" />
-                <span className="relative w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-lg">
-                  <span className="material-symbols-outlined text-on-primary text-xl">
-                    location_on
-                  </span>
-                </span>
-              </div>
-              <span className="mt-2 bg-white px-4 py-1.5 rounded-full shadow-md font-headline text-xs font-bold text-primary tracking-wide whitespace-nowrap">
-                +CHANGARROS HQ
-              </span>
             </div>
           </div>
         </section>

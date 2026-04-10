@@ -13,37 +13,37 @@ const categories = [
 
 const projects = [
   {
-    name: "Café de la Terraza",
+    name: "Estrategia de redes para cafetería",
     category: "Redes Sociales",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuB0ENaCl2NWEGgRAGIsPLSa9FhzuF1f_lZHUTsx0hIi2vVg-xftnFHdNJB4YMEWvPHW2YkiAN2smPbqTjnovfDmznmlXlNxQoH62DEaXVvJDMDVnSdigsBDvYav3t-t9bbwq1DUtUIbO1apW10vM9hFA1cZpwI2cSlKEkZpqwB2HGI7HLZnxKu2zgMdvLQxpScbtbobVIQqjBAjkvOVxrxobxHZOtNjlExKkDa64Df-X7MA7scIJkuf4HGTLUrsLrNlQREq5pm4rbg",
   },
   {
-    name: "Tienda de Artesanías",
+    name: "E-commerce para tienda artesanal",
     category: "Diseño Web",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBaCRB20mmhkVptPOHO6T-JK9_SvTps1cRLwaDJEJ_oJItfjNFaxzBZMAMLHG5CVrv1CAiyYPpd_kjqqZYxEKkytpLEokW3GJj0fTt8l-Pv_sEFKhPKN4aftsxz7rb6-JFG6Likwwf3ldO8PO1CbahE0Ki6l4Sfh522Fhd7jvL4N-iYmzYBO-I_lnGGTogN7ZDtZSybcTyImBPokKU3Z2fWa7MhW49-DL1BWu2J_inzDXhEzglJEu_lzDkV2Cuhrhd8IafVdqMHJ9Q",
   },
   {
-    name: "Boutique Elegancia",
+    name: "Campaña publicitaria para boutique",
     category: "Publicidad",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAAUMMgCw4_6Dn964OILwabVxl714oRHVX3UcsMmPCU6wgi7j5Di1uNzQHEXoMpKorVf-CNszGsTN_Qnjwz8lhM0_-pZfjAAPshCxItlfX0sitlHLN2NbNxj8vLR4Tf2mV5eeCekZW9JjhcpqOEBS1xEE8v8-SMhNZ6v-fcnqkmfdcOLULiuhhhHab53pRKA53AGE9cqS8oaW_KQTvavyPrCYBX8b-IJ0GmjDt-kB62RtaQdfJcMm0CICv-IVpwkV8cMs87wYP_Aa4",
   },
   {
-    name: "Frutería El Mercado",
+    name: "Identidad visual para mercado local",
     category: "Branding",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAvgDhXVK8dLMJrv4ERlpssnFWYgN3IeeOQMybyhymq69kSpWhEwkPJ65aQJX76vP8p3bErJrLNpAFm7O8ya171AG-E1glNGTndKXB9qVX0Gl-aYIfMijjxA-5CNoKV-J3I5yAh8sm1TbYsnFmVYTub2Wyb_A4azhLkqg6wPwgnC4uODBbg7f1cLDXRc5rJpJKgcPngtcsEpCwoh3Tlt5-Oom2iHRnJHUVQhAPd4FEtKjyLRFSCQC8-HJgwR-LBr4dGEBlqtUOmzwY",
   },
   {
-    name: "Mandaditos Express",
+    name: "App y web para servicio de entregas",
     category: "Diseño Web",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBM15hHLzu-C5Rm_sxxC59hMMaXVEcA9I6M37lqeE0kswj-zM25FFMYwcHpLKukD5mbjNCBW2pb6otODggFAoGICxGyzhdNEF-Ee52enXs1VB4NzEQz9hlr_Jk56tXcq6dHfV2y-tDyHY7sVDSMZVaB6hwsbsvv2cV9AQNsE-JwXR-MXSzbT7hGFKmmsShUngdOIYlq6mpeELlkfuMbeMobQOGjz0KpTr9dXm_14Mniq0sQ4jm8Qm1ERbGf1kg0I-_YFlvf-vo-OuE",
   },
   {
-    name: "Mueblería La Estancia",
+    name: "Feed de redes para mueblería",
     category: "Redes Sociales",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAPAbRk3TZfKkEuRXyXvM2Z48lhmFSJGnTbpKaX2ZF_vOqOlQB2aV8KwI4B6bg7Mdg3IAOaaSuiXJ3QQ1D7MCElSGW9TKh6a0kWof5vz7mBxgAtMaCSSKtcAlJaF1sFoNSHWr9Aw_99ohLFGORm_ch_MX4L4uiQMLHbnGt8mxLMvFUiCvK7kcwWdn9AdJVYbZCe09K-5UVLG21h-C0MnO0Fj1hEPkzMkdVzFlVmyFJrYEtndXX2Stnni45k8R6EE0AgsqqXDMypXFc",
@@ -53,21 +53,18 @@ const projects = [
 const testimonials = [
   {
     quote:
-      "Desde que +CHANGARROS maneja nuestras redes, las ventas del fin de semana se triplicaron. Son creativos y entienden al cliente local.",
-    name: "María García",
-    company: "Café de la Terraza",
+      "Desde que manejan nuestras redes, las ventas del fin de semana se triplicaron. Son creativos y entienden al cliente local.",
+    role: "Dueño de cafetería",
   },
   {
     quote:
-      "Nos diseñaron una página web increíble que refleja nuestra esencia artesanal. Los clientes nos encuentran fácil y las consultas aumentaron un 200%.",
-    name: "Roberto Sánchez",
-    company: "Tienda de Artesanías",
+      "Nos diseñaron una página web increíble que refleja nuestra esencia artesanal. Las consultas aumentaron un 200%.",
+    role: "Emprendedora de artesanías",
   },
   {
     quote:
-      "La campaña de publicidad que nos hicieron fue un éxito total. Profesionales, puntuales y con ideas frescas que realmente conectan.",
-    name: "Ana Martínez",
-    company: "Boutique Elegancia",
+      "La campaña de publicidad fue un éxito total. Profesionales, puntuales y con ideas frescas que realmente conectan.",
+    role: "Propietaria de boutique",
   },
 ];
 
@@ -161,7 +158,7 @@ export default function PortafolioPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {testimonials.map((t) => (
                 <div
-                  key={t.name}
+                  key={t.role}
                   className="bg-white rounded-2xl p-8 shadow-sm"
                 >
                   <div className="flex gap-1 mb-4">
@@ -180,10 +177,7 @@ export default function PortafolioPage() {
                   </p>
                   <div>
                     <p className="font-headline font-bold text-on-surface">
-                      {t.name}
-                    </p>
-                    <p className="font-label text-sm text-on-surface-variant">
-                      {t.company}
+                      {t.role}
                     </p>
                   </div>
                 </div>
