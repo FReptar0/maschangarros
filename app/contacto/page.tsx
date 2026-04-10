@@ -40,7 +40,7 @@ export default function ContactoPage() {
               </a>
 
               <a
-                href="tel:+525512345678"
+                href="tel:+528119915892"
                 className="flex items-center gap-3 text-on-secondary-container hover:opacity-80 transition-opacity"
               >
                 <span className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
@@ -49,12 +49,12 @@ export default function ContactoPage() {
                   </span>
                 </span>
                 <span className="font-body font-medium">
-                  +52 55 1234 5678
+                  811 991 5892
                 </span>
               </a>
 
               <a
-                href="https://wa.me/5215512345678"
+                href="https://wa.me/528119915892"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-on-secondary-container hover:opacity-80 transition-opacity"
@@ -203,7 +203,7 @@ export default function ContactoPage() {
 
         {/* WhatsApp FAB */}
         <a
-          href="https://wa.me/5215512345678"
+          href="https://wa.me/528119915892"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-8 right-8 z-40 group"
